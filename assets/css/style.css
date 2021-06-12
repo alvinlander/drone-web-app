@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Rubik', sans-serif;
+  background-color: #F3F5FC;
+}
+nav{
+  margin-top: 45px;
+}
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* nav .container{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+.logo-web{
+  display: flex;
+  align-items: center;
+}
+.logo-web .heading{
+  margin-left: 20px;
+  font-size: 18px;
+  color:black;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.nav-list{
+  list-style-type: none;
+  margin-right: 52px;
+}
+.nav-list a {
+  color: black;
+}
+.nav-list a:hover{
+  color: #315BC7;
+}
+.btn-sign{
+  margin-left: 45px;
+  margin-right: 8px;
+}
+.sign-in{
+  padding: 16px 32px;
+}
+a.sign-in{
+  color: #315BC7;
+}
+.sign-up{
+  padding: 16px 32px;
+  background-color: #315BC7;
+  border-radius: 39px;
+  opacity:0.8;
+}
+a.sign-up{
+  color: white;
+}
+.sign-up:hover{
+  opacity: 1;
+}
+a.sign-up:hover{
+  color:white;
+}
+
+/* Hero section */
+.hero-section{
+  margin-top: 138px;
+  margin-bottom: 170px;
+}
+.heading-section{
+  word-wrap: break-word;
+}
+.heading-section h1 {
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 86px;
+  margin-bottom: 26px;
+}
+.heading-section p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  color: rgba(10, 19, 41, 0.55);
+  margin-bottom: 70px;
+}
+.btn-get-now{
+  padding: 18px 45px;
+  background-color: #315BC7;
+  border-radius: 35px;
+  color:white;
+  opacity:0.8;
+}
+.btn-get-now:hover{
+  opacity: 1;
+}
